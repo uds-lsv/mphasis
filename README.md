@@ -37,6 +37,8 @@ The columns are the following:
 - annotator: id of annotator.
 - all others: please refer to the annotation protocol for a full explanation of all variables.
 
+Many modules allow several iterations over a sample. In this case, the columns have added numberings to show which iteration is currently annotated. For example, c_ne allows the annotation of several negatively evaluated actors over several iterations. We therefore see columns such as c_ne_1_0 to c_ne_1_5, which are all annotations of question c_ne_1, but for 6 different negatively evaluated actors. The following c_ne_2_x is then the follow-up annotation to c_ne_1_x, and so forth. Please see the annotation protocol for more.
+
 # Model Outputs
 Each model output file contains one test instance per line. For each test instance, we give the model outputs over 10 randomly seeded runs, which are space separated.
 
