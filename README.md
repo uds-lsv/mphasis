@@ -1,7 +1,7 @@
 # M-Phasis
 This is the data repository for the LREC 2022 publication "Placing M-Phasis on the Plurality of Hate: A Feature-Based Corpus of Hate Online".
 Before you download anything, **please note our license**, which:
-- requires **attribution** (you need to cite us)
+- requires **attribution** (see bibtex below)
 - does **not allow commercial use**
 - **no sharing** of the uploaded material or derivatives thereof with others through means other than this Github repository
 
